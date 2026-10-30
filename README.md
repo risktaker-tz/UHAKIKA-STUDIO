@@ -38,7 +38,7 @@ PROMPT -> Studio Brain (LLM script + shot list, any language)
 ```
 
 ## Ref conventions
-- Each engine keeps its **full commit history**: `git log -- engines/<name>`
+- Each engine keeps its **full commit history** (21,000+ commits total): find an engine's merge with `git log --grep "UHAKIKA: merge"` then browse its original history with `git log <merge-commit>^2`
 - Original feature branches: `legacy/<engine>/<branch>`
 - Original tags: `<engine>/<tag>`
 - License per directory: see `LICENSES.md` and each directory's LICENSE file.
